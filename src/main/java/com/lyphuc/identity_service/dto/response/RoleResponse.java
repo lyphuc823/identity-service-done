@@ -1,6 +1,5 @@
 package com.lyphuc.identity_service.dto.response;
 
-import com.lyphuc.identity_service.entity.Permission;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

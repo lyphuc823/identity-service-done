@@ -2,7 +2,6 @@ package com.lyphuc.identity_service.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 

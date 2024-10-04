@@ -1,6 +1,5 @@
 package com.lyphuc.identity_service.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.lyphuc.identity_service.dto.request.UserCreationRequest;

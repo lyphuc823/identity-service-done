@@ -1,7 +1,6 @@
 package com.lyphuc.identity_service.dto.request;
 
 import com.lyphuc.identity_service.validator.DobConstraint;
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Size;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
