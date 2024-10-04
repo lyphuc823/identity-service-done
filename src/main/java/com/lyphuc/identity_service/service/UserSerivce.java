@@ -3,6 +3,7 @@ package com.lyphuc.identity_service.service;
 import com.lyphuc.identity_service.dto.request.UserCreationRequest;
 import com.lyphuc.identity_service.dto.request.UserUpdateRequest;
 import com.lyphuc.identity_service.dto.response.UserResponse;
+import org.springframework.security.access.prepost.PreAuthorize;
 
 import java.util.List;
 
@@ -12,4 +13,5 @@ public interface UserSerivce {
     void deleteUser(String userId);
     List<UserResponse> getUsers();
     UserResponse getUser(String userId);
+    UserResponse getMyInfo();
 }
